@@ -13,7 +13,7 @@ public class MenuUIHandler : MonoBehaviour
 
     public void Start()
     {
-        
+        usernameInput.text = PersistenceManager.Instance.LoadPlayername();
     }
     public void StartNew()
     {
